@@ -31,10 +31,10 @@ html {
 }
 
   #container{
-      background-image: url("smd.png");
+      background-image: url("Esht.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
       display: grid;
-      grid-template-columns: repeat(25, 1fr);
-      grid-template-rows: repeat(25, 1fr);
       height: 100%;
       width: 100%;
       margin: auto;
@@ -46,15 +46,9 @@ html {
   }
 
   .gridBlock{
-
     background-color: black;
     justify-self: stretch;
   }
 
-  /* .gridBlock:hover{
-      border: 1px solid black;
-      background-color: transparent;
-      justify-self: stretch;
-  } */
 
 
